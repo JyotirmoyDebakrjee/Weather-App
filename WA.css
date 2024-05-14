@@ -1,0 +1,80 @@
+body{
+    background-image: url(BG2.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100vh; /* Set the height of the body to full viewport height */
+    font-family:Tahoma;
+    
+}
+.con{
+    background: linear-gradient(to bottom, #1f2c3e, #475569);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+.wform {
+    margin-top:25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cityIn{
+   
+    background-color: #37474f;
+    height: 40px;
+    width: 300px;
+    color:white;
+    border:1px solid white;
+    border-radius: 12px;
+}
+button{
+    margin-top: 40px;
+    height: 50px;
+    border-radius: 11px;
+    background-color: #ffae42;
+    font-size:1rem;
+    transition: background-color 0.3s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color:#ffae42;
+}
+.card{
+    margin-bottom: 40px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.card p{
+    margin-bottom: 8px;
+}
+.tempD{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top:-5px;
+}
+.weatherE{
+    font-size: 4rem;
+    margin-top: -12px;
+
+}
+.humidityD{
+  
+}
+.errorD{
+    margin-top: 10px;
+}
+
